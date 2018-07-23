@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>گیکتاب</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<h1>گالری تصاویر</h1>
+
+		<!-- Start gallery -->
+		<div class="gallery">
+			
+			<!-- Start picture show -->
+			<div class="item">
+				<img src="src/art.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/art2.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/art3.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/art4.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/cam.JPG" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/ford_crop.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/galaxy.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/got.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/her.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/hero.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/human.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/jungle.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/meAndMyFirendBFF.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/nature.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/no.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/P.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/pasor.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/q1.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/quote.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/ww1.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/ww2.jpg" class="pic">
+			</div>
+			<div class="item">
+				<img src="src/YOU.jpg" class="pic">
+			</div>
+			<!-- End picture show -->
+
+		</div>
+		<!-- End gallery -->
+
+		<!-- Strat Script -->
+		<!-- Load from CDN -->
+		<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+		<!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
+		<!-- End Script -->
+
+		<!-- Strat Script -->
+		<script src="jquery-3.3.1.min.js"></script>
+		<script src="masonry.pkgd.min.js"></script>
+		<script>
+		$('.gallery').masonry({
+		itemSelector: '.item',
+		columnWidth: 0
+		});
+		</script>
+		<!-- End Script -->
+
+	</body>
+
+</html>
